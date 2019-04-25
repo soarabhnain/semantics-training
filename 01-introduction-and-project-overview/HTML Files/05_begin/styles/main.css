@@ -57,7 +57,7 @@ table {
     White:
     #f4f3f2
 -----------------------------------------------------*/
-/* -------------------Clearing–––––––––––––––––––––– */
+/* -------------------Clearing and utility classes–––––––––––––––––––––– */
 .clear-fix {
   content: "";
   display: table;
@@ -66,6 +66,15 @@ table {
 
 .clear {
    clear: both; 
+}
+
+.hidden{
+  position: absolute;
+  left: -16000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 /* --------------- Type ------------------ */
